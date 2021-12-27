@@ -5,7 +5,7 @@ function MicroFrontend({ name, host, history }) {
     const scriptId = `micro-frontend-script-${name}`;
 
     const renderMicroFrontend = () => {
-      window[`render${name}`](`${name}`, history);
+      window[`render${name}`](name, history);
     };
 
     if (document.getElementById(scriptId)) {
@@ -27,7 +27,7 @@ function MicroFrontend({ name, host, history }) {
       });
 
     return () => {
-      window[`unmount${name}`] && window[`unmount${name}`](`${name}`);
+      window[`unmount${name}`] && window[`unmount${name}`](name);
     };
   });
 
