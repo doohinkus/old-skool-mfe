@@ -40,4 +40,4 @@ Routes from http://localhost:4000:
 
 - / --> default page with steps
 - /content --> some silly content
-- look at ./src/index.js - New micro-apps need to follow this structure / naming convention.
+- look at .https://github.com/doohinkus/old-skool-mfe/blob/master/old-skool-mfe-content/src/index.js - New micro-apps need to follow this structure / naming convention.
