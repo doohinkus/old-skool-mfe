@@ -5,13 +5,7 @@ import { createBrowserHistory as history } from "history";
 import "./App.css";
 import MicroFrontend from "./MicroFrontend";
 
-import MFE from "./MFE";
-const {
-  REACT_APP_BROWSE_HOST: browseHost,
-  REACT_APP_RESTAURANT_HOST: restaurantHost,
-  REACT_APP_CREATEREACTAPP_HOST: createreactappHost,
-  REACT_APP_OLD_SKOOL_CONTENT: oldSkoolContent,
-} = process.env;
+const { REACT_APP_OLD_SKOOL_CONTENT: oldSkoolContent } = process.env;
 const Content = ({ history }) => (
   <MicroFrontend history={history} host={oldSkoolContent} name="Content" />
 );
