@@ -27,16 +27,17 @@ npm start
 - open old-skool-mfe
 
 ```
-npm start
+npm i
 ```
 
 - open old-skool-mfe-content (runs on port 5000)
 
 ```
-npm i
+npm start
 ```
 
 Routes from http://localhost:4000:
 
 - / --> default page with steps
 - /content --> some silly content
+- look at ./src/index.js - New micro-apps need to follow this structure / naming convention.
