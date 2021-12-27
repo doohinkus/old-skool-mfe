@@ -41,3 +41,5 @@ Routes from http://localhost:4000:
 - / --> default page with steps
 - /content --> some silly content
 - look at .https://github.com/doohinkus/old-skool-mfe/blob/master/old-skool-mfe-content/src/index.js - New micro-apps need to follow this structure / naming convention.
+
+Code above derived from this repo -> https://blog.bitsrc.io/how-to-develop-microfrontends-using-react-step-by-step-guide-47ebb479cacd
